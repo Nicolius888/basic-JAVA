@@ -18,6 +18,7 @@ public class PrecioIVA {
         210     //si tomo 21 de cada 100 en 1000, obtengo 210, es decir, el 21 por ciento de 1000.
         precio 1000 + 210 de IVA
         = 1210
+        Esto se ejecuta en la funcion publica iva en linea 54.
          */
 
         DecimalFormat df = new DecimalFormat("0.00");//Para formatear los dobles a solo 2 decimales.
