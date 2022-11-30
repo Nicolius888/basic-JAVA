@@ -11,7 +11,6 @@ public class Main {
         Recordatorio: Los tipos de datos más comunes son int, long, double, boolean, String.
         */
 
-
         //tipos primitivos ejemplos:
 
         byte myByte = 100;
