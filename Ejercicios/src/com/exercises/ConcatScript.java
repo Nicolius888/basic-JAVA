@@ -6,19 +6,26 @@ public class ConcatScript {
 
         String textos = "";
 
-        Scanner input = new Scanner(System.in);                   //abro el scanner
+        //abro el scanner
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Ingrese los textos a concatenar + enter, para concatenar use el comando concat: ");
 
-        while(true){                                              //bucle infinito para escuchar el input
+        //bucle infinito para escuchar el input
+        while(true){
             String texto = input.nextLine();
-            if(texto.equalsIgnoreCase("concat")){  //condicion para recibir el comando de salida
+
+            //condicion para recibir el comando de salida
+            if(texto.equalsIgnoreCase("concat")){
                 break;
             }
-            textos = textos.concat(texto).concat(" ");       //en cada iteracion concateno el texto nuevo
+
+            //en cada iteracion concateno el texto nuevo
+            textos = textos.concat(texto).concat(" ");
         }
 
-        System.out.println(textos);                               // al finalizar el loop lo unico que queda es imprimir el texto completo.
+        // al finalizar el loop lo unico que queda es imprimir el texto completo.
+        System.out.println(textos);
 
     }
 }
